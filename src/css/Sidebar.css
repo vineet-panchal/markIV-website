@@ -1,0 +1,38 @@
+.sidebar-ctr {
+  /* background-color: blue; */
+  display: inline;
+  width: 40%;
+  float: left;
+  position: fixed;
+  height: 100vh;
+  color: white;
+  /* padding: 20px; */
+}
+
+.sidebar-maintitle {
+  font-family: "Stoke", system-ui;
+  font-weight: 300;
+  font-style: normal;
+  margin: 20px;
+
+  /* font-family: "Stoke", serif;
+  font-weight: 300;
+  font-style: normal; */
+  /* font-family: "Linden Hill", serif;
+  font-weight: 400;
+  font-style: normal; */
+}
+
+.sidebar-subtitle {
+  font-family: "Linden Hill", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@media screen and (max-width: 900px) {
+  .sidebar-ctr {
+    position: relative;
+    float: left;
+    width: 100%;
+  }
+}
