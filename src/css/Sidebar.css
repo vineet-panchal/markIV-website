@@ -6,28 +6,140 @@
   position: fixed;
   height: 100vh;
   color: white;
+  /* background-color: blueviolet; */
   /* padding: 20px; */
 }
 
 .sidebar-maintitle {
-  font-family: "Stoke", system-ui;
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
   font-weight: 300;
+  font-size: 45px;
   font-style: normal;
-  margin: 20px;
+  padding: 7vw 0vw 0.6vw 12vw;
 
-  /* font-family: "Stoke", serif;
-  font-weight: 300;
-  font-style: normal; */
-  /* font-family: "Linden Hill", serif;
-  font-weight: 400;
-  font-style: normal; */
 }
 
 .sidebar-subtitle {
-  font-family: "Linden Hill", serif;
-  font-weight: 400;
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
   font-style: normal;
+  font-size: 12px;
+  padding: 0vw 0vw 1vw 12vw;
 }
+
+.navbar {
+  padding: 3vw 0vw 1vw 12vw;
+
+}
+
+.nav-links {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 2vw;
+}
+
+.navbar-btn {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 15px;
+  cursor: pointer;
+  align-items: center;
+  background-color: transparent;
+  color: #fff;
+  display: flex;
+  line-height: 1.5;
+  text-decoration: none;
+  text-transform: uppercase;
+  outline: 0;
+  border: 0;
+  /* margin-right: 0; */
+  /* padding: 1rem; */
+}
+
+.navbar-btn:before {
+  background-color: #fff;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  /* margin-right: 10px; */
+  transition: all .42s cubic-bezier(.25,.8,.25,1);
+  width: 0;
+}
+
+.navbar-btn:hover:before {
+  margin-right: 10px;
+  background-color: #fff;
+  width: 3rem;
+}
+
+.sidebar-quote {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: italic;
+  color: white;
+  font-size: 10px;
+  padding: 1vw 0vw 1vw 12vw;
+}
+
+/* From Uiverse.io by vinodjangid07 */ 
+.github-btn, .linkedin-btn, .email-btn {
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  background-color: transparent;
+  position: relative;
+  /* overflow: hidden; */
+  border-radius: 7px;
+  cursor: pointer;
+  transition: all .3s;
+}
+
+.svg-ctr {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  backdrop-filter: blur(0px);
+  letter-spacing: 0.8px;
+  border-radius: 10px;
+  transition: all .3s;
+  border: 1px solid rgba(156, 156, 156, 0.466);
+}
+
+.github-btn-bg, .linkedin-btn-bg, .email-btn-bg {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: #181818;
+  z-index: -1;
+  border-radius: 10px;
+  pointer-events: none;
+  transition: all .3s;
+}
+
+.github-btn:hover .github-btn-bg, .linkedin-btn:hover .linkedin-btn-bg, .email-btn:hover .email-btn-bg {
+  transform: rotate(35deg);
+  transform-origin: bottom;
+}
+
+.github-btn:hover, .linkedin-btn:hover, .email-btn:hover .svg-ctr {
+  background-color: rgba(156, 156, 156, 0.466);
+  backdrop-filter: blur(4px);
+}
+
+
 
 @media screen and (max-width: 900px) {
   .sidebar-ctr {
