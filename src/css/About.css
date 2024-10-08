@@ -1,0 +1,15 @@
+.about-ctr {
+  height: 100vh;
+  /* background-color:darkblue; */
+  padding: 7vw 12vw 0vw 0vw;
+}
+
+.about-paragraph {
+  color: white;
+  padding-bottom: 2vw;
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 1rem;
+}

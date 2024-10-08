@@ -30,8 +30,7 @@
 }
 
 .navbar {
-  padding: 3vw 0vw 1vw 12vw;
-
+  padding: 4vw 0vw 1vw 12vw;
 }
 
 .nav-links {
@@ -83,8 +82,15 @@
   font-weight: 200;
   font-style: italic;
   color: white;
-  font-size: 10px;
-  padding: 1vw 0vw 1vw 12vw;
+  font-size: 15px;
+  padding: 3vw 0vw 1vw 12vw;
+}
+
+.contact-links {
+  display: flex;
+  padding: 3vw 10vw 1vw 12vw;
+  justify-content: space-between;
+  flex-direction: row;
 }
 
 /* From Uiverse.io by vinodjangid07 */ 
@@ -139,7 +145,15 @@
   backdrop-filter: blur(4px);
 }
 
-
+.copyright-mark {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 10px;
+  color: white;
+  padding: 3vw 0vw 0vw 12vw;
+}
 
 @media screen and (max-width: 900px) {
   .sidebar-ctr {

@@ -1,19 +1,16 @@
 import React from 'react';
 import "../css/Content.css";
-import Home from './Home';
 import Projects from './Projects';
 import Experience from './Experience';
-import Contact from './Contact';
+import About from './About';
 
 const Content = () => {
   return (
     <>
       <div className="content-ctr">
-        content
-        <Home />
+        <About />
         <Projects />
         <Experience />
-        <Contact />
       </div>
     </>
   )
