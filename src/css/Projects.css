@@ -1,24 +1,62 @@
 .projects-ctr {
-  height: 100vh;
-  background-color: crimson;
+  /* height: 100vh; */
+  /* background-color: crimson; */
 }
 
 .projects-card-ctr {
-  background-color:burlywood;
+  /* background-color:burlywood; */
   display: flex;
   padding: 10px;
   margin-right: 12vw;
+  padding-bottom: 4vw;
 }
 
-.projects-card-img {
-  height: auto;
-  width: 20vw;
+#teachforcambodia-img {
+  height: 6vw;
+  width: 10vw;
+  object-fit: cover;
+  padding-bottom: 1vw;
+}
+
+#ratemyprofessor-img {
+  height: 4vw;
+  width: 10vw;
+  object-fit: cover;
+  padding-bottom: 4vw;
+}
+
+#intelly-img {
+  height: 4vw;
+  width: 10vw;
+  object-fit: cover;
+  padding-bottom: 3vw;
+}
+
+#fashiondisasteravoider-img {
+  height: 4vw;
+  width: 10vw;
+  object-fit: cover;
+  padding-bottom: 1vw;
+}
+
+#aiwingman-img {
+  height: 5vw;
+  width: 10vw;
+  object-fit: cover;
+  padding-bottom: 1vw;
+}
+
+#astarvisualizer-img {
+  height: 4vw;
+  width: 10vw;
+  object-fit: cover;
+  padding-bottom: 3vw;
 }
 
 .projects-card-left {
   display: inline;
   float: left;
-  background-color: chocolate;
+  /* background-color: chocolate; */
 }
 
 
@@ -27,13 +65,25 @@
   display: inline;
   float: right;
   padding-left: 20px;
-  background-color: darkgreen;
+  /* background-color: darkgreen;  */
 }
 
 .projects-card-links {
   display: flex;
-  justify-content: space-between;
+  position: relative;
+  justify-content: left;
   flex-direction: row;
+  align-items: flex-end;
+  /* padding-top: 1vw; */
+  gap: 10px;
+  /* padding-right: 10vw; */
+}
+
+.projects-links-icons {
+  float: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 
@@ -83,4 +133,77 @@
 .projects-btn:hover .projects-links-icon {
   opacity: 0;
   transition-duration: .3s;
+}
+
+.projects-card-title {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 1.5rem;
+  padding-bottom: 0.5vw;
+}
+
+.projects-card-text {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 1rem;
+  padding-bottom: 1.5vw;
+}
+
+.projects-tech {
+  display: flex;
+  justify-content: left;
+  align-items: flex-end;
+  flex-direction: row;
+}
+
+.projects-tech-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  /* padding-right: 1vw; */
+  margin-right: 1vw;
+  height: 30px;
+  /* margin: 5px; */
+  width: 72px;
+  background: #333;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  cursor: pointer;
+  /* -webkit-box-align: center; */
+  /* -ms-flex-align: center; */
+  /* align-items: center; */
+  font-family: Consolas, Courier New, monospace;
+  border: solid #404c5d 1px;
+  font-size: 10px;
+  color: rgb(161, 161, 161);
+  -webkit-transition: 500ms;
+  transition: 500ms;
+  border-radius: 5px;
+  background: linear-gradient(145deg, #2e2d2d, #212121);
+  /* -webkit-box-shadow: -1px -5px 15px #41465b, 5px 5px 15px #41465b, */
+    /* inset 5px 5px 10px 212121, inset -5px -5px 10px #212121; */
+  /* box-shadow: -1px -5px 15px #41465b, 5px 5px 15px #41465b, */
+    /* inset 5px 5px 10px #212121, inset -5px -5px 10px #212121; */
+}
+
+.projects-tech-btn:hover {
+  -webkit-box-shadow: 1px 1px 13px #20232e, -1px -1px 13px #545b78;
+  box-shadow: 1px 1px 13px #20232e, -1px -1px 13px #545b78;
+  color: #d6d6d6;
+  -webkit-transition: 500ms;
+  transition: 500ms;
+}
+
+.projects-tech-btn:active {
+  -webkit-box-shadow: 1px 1px 13px #20232e, -1px -1px 33px #545b78;
+  box-shadow: 1px 1px 13px #20232e, -1px -1px 33px #545b78;
+  color: #d6d6d6;
+  -webkit-transition: 100ms;
+  transition: 100ms;
 }
