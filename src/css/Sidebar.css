@@ -94,7 +94,7 @@
 }
 
 /* From Uiverse.io by vinodjangid07 */ 
-.github-btn, .linkedin-btn, .email-btn {
+.github-btn, .linkedin-btn, .email-btn, .resume-btn {
   width: 45px;
   height: 45px;
   display: flex;
@@ -123,7 +123,7 @@
   border: 1px solid rgba(156, 156, 156, 0.466);
 }
 
-.github-btn-bg, .linkedin-btn-bg, .email-btn-bg {
+.github-btn-bg, .linkedin-btn-bg, .email-btn-bg, .resume-btn-bg {
   position: absolute;
   content: "";
   width: 100%;
@@ -135,12 +135,12 @@
   transition: all .3s;
 }
 
-.github-btn:hover .github-btn-bg, .linkedin-btn:hover .linkedin-btn-bg, .email-btn:hover .email-btn-bg {
+.github-btn:hover .github-btn-bg, .linkedin-btn:hover .linkedin-btn-bg, .email-btn:hover .email-btn-bg, .resume-btn:hover .resume-btn-bg {
   transform: rotate(35deg);
   transform-origin: bottom;
 }
 
-.github-btn:hover, .linkedin-btn:hover, .email-btn:hover .svg-ctr {
+.github-btn:hover, .linkedin-btn:hover, .email-btn:hover, .resume-btn:hover .svg-ctr {
   background-color: rgba(156, 156, 156, 0.466);
   backdrop-filter: blur(4px);
 }
