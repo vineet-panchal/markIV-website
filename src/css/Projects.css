@@ -218,3 +218,60 @@
   /* border: 1px solid #d6d6d6; */
   background-color:#0d0c0c;
 }
+
+@media screen and (max-width: 900px) {
+  .projects-card-ctr {
+    margin: 0vw 7vw 4vw 7vw;
+    overflow: none;
+  }
+
+  #teachforcambodia-img {
+    height: 6vw;
+    width: 12vw;
+    padding-bottom: 14vw;
+  }
+
+  #ratemyprofessor-img {
+    height: 4vw;
+    width: 12vw;
+    padding-bottom: 20vw;
+  }
+
+  #intelly-img {
+    height: 6vw;
+    width: 12vw;
+    padding-bottom: 15vw;
+  }
+
+  #fashiondisasteravoider-img {
+    height: 6vw;
+    width: 12vw;
+    padding-bottom: 11vw;
+  }
+
+  #aiwingman-img {
+    height: 6vw;
+    width: 12vw;
+    padding-bottom: 11vw;
+  }
+
+  #astarvisualizer-img {
+    height: 6vw;
+    width: 12vw;
+    padding-bottom: 14vw;
+  }
+
+  .projects-btn {
+    width: 25px;
+    height: 25px;
+  }
+
+  .projects-links-text {
+    width: 60px;
+    font-size: 0.5rem;
+  }
+
+  .projects-btn:hover {
+    width: 40px;
+  }
+}

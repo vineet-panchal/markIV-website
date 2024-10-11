@@ -13,5 +13,16 @@
     display: flex;
     width: 100%;
     float: right;
+    flex-direction: column;
   }
+
+  /* .about-ctr { */
+    /* display: flex; */
+    /* text-align: center; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* padding: 0; */
+    /* color: aqua; */
+    /* padding: 7vw 2vw 2vw 0vw; */
+  /* } */
 }

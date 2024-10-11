@@ -52,7 +52,7 @@ const Projects = () => {
                   <span class="projects-links-text" id="website-text">Website</span>
                 </button>
               </a>
-            </div>
+            </div>  
           </div>
           <div className="projects-card-right" id="teachforcambodia-right">
             <h1 className="projects-card-title" id="teachforcambodia-title">Teach For Cambodia</h1>
@@ -195,7 +195,7 @@ const Projects = () => {
             </div>
           </div>
           <div className="projects-card-right" id="fashiondisasteravoider-right">
-            <h1 className="projects-card-title" id="fashiondisasteravoider-title">Intelly AI Flashcards</h1>
+            <h1 className="projects-card-title" id="fashiondisasteravoider-title">Fashion Disaster Avoider</h1>
             <p className="projects-card-text" id="fashiondisasteravoider-text">
               Developed an AI-powered chatbot that offers real-time, brutally honest fashion advice to avoid style mishaps.
             </p>

@@ -99,3 +99,10 @@
   transition: 1s;
   background-color:#0d0c0c;
 }
+
+@media screen and (max-width: 900px) {
+  .experience-card-ctr {
+    margin: 0vw 7vw 4vw 7vw;
+    overflow: none;
+  }
+}
