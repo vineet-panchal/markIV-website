@@ -1,0 +1,101 @@
+.experience-card-ctr {
+  display: flex;
+  padding: 10px;
+  margin-right: 12vw;
+  margin-bottom: 4vw;
+}
+
+.experience-card-left {
+  display: inline;
+  float: left;
+  width: 22%;
+}
+
+.experience-card-right {
+  display: inline;
+  float: right;
+  width: 78%;
+  /* padding-left: 20px; */
+}
+
+.experience-date {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 0.7rem;
+  position: relative;
+  /* padding-right: 1vw; */
+}
+
+.experience-card-title {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 1.3rem;
+  padding-bottom: 0.5vw;
+}
+
+.experience-card-text {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 1rem;
+  padding-bottom: 1.5vw;
+}
+
+.experience-tech {
+  display: flex;
+  justify-content: left;
+  align-items: flex-end;
+  flex-direction: row;
+}
+
+.experience-tech-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin-right: 1vw;
+  height: 30px;
+  width: 72px;
+  background: #333;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  cursor: pointer;
+  font-family: Consolas, Courier New, monospace;
+  border: solid #404c5d 1px;
+  font-size: 10px;
+  color: rgb(161, 161, 161);
+  -webkit-transition: 500ms;
+  transition: 500ms;
+  border-radius: 5px;
+  background: linear-gradient(145deg, #2e2d2d, #212121);
+}
+
+.experience-tech-btn:hover {
+  -webkit-box-shadow: 1px 1px 13px #20232e, -1px -1px 13px #545b78;
+  box-shadow: 1px 1px 13px #20232e, -1px -1px 13px #545b78;
+  color: #d6d6d6;
+  -webkit-transition: 500ms;
+  transition: 500ms;
+}
+
+.experience-tech-btn:active {
+  -webkit-box-shadow: 1px 1px 13px #20232e, -1px -1px 33px #545b78;
+  box-shadow: 1px 1px 13px #20232e, -1px -1px 33px #545b78;
+  color: #d6d6d6;
+  -webkit-transition: 100ms;
+  transition: 100ms;
+}
+
+.experience-card-ctr:hover {
+  -webkit-box-shadow: 1px 1px 13px #20232e, -1px -1px 13px #545b78;
+  box-shadow: 1px 1px 13px #20232e, -1px -1px 13px #434447;
+  -webkit-transition: 1s;
+  transition: 1s;
+  background-color:#0d0c0c;
+}

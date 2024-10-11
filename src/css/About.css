@@ -1,7 +1,7 @@
 .about-ctr {
-  height: 60vh;
+  /* height: 60vh; */
   /* background-color:darkblue; */
-  padding: 7vw 12vw 0vw 0vw;
+  padding: 7vw 12vw 2vw 0vw;
 }
 
 .about-paragraph {

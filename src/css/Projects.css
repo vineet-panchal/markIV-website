@@ -1,14 +1,15 @@
-.projects-ctr {
-  /* height: 100vh; */
-  /* background-color: crimson; */
-}
+/* .projects-ctr {
+  height: 100vh;
+  background-color: crimson;
+} */
 
 .projects-card-ctr {
   /* background-color:burlywood; */
   display: flex;
   padding: 10px;
   margin-right: 12vw;
-  padding-bottom: 4vw;
+  /* padding-bottom: 4vw;*/
+  margin-bottom: 4vw;
 }
 
 #teachforcambodia-img {
@@ -140,7 +141,7 @@
   font-optical-sizing: auto;
   font-weight: 600;
   font-style: normal;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   padding-bottom: 0.5vw;
 }
 
@@ -206,4 +207,14 @@
   color: #d6d6d6;
   -webkit-transition: 100ms;
   transition: 100ms;
+}
+
+.projects-card-ctr:hover {
+  -webkit-box-shadow: 1px 1px 13px #20232e, -1px -1px 13px #545b78;
+  box-shadow: 1px 1px 13px #20232e, -1px -1px 13px #434447;
+  /* color: #d6d6d6; */
+  -webkit-transition: 1s;
+  transition: 1s;
+  /* border: 1px solid #d6d6d6; */
+  background-color:#0d0c0c;
 }
