@@ -42,8 +42,10 @@ const Experience = () => {
             </h4>
             <div className="experience-tech" id="thecirclelabs-tech">
               <button className="experience-tech-btn">React JS</button>
-              <button className="experience-tech-btn">Spline</button>
-              <button className="experience-tech-btn">Tailwind CSS</button>
+              <button className="experience-tech-btn">Typescript</button>
+              <button className="experience-tech-btn">Node JS</button>
+              <button className="experience-tech-btn">Express JS</button>
+              <button className="experience-tech-btn">MongoDB</button>
             </div>
           </div>
         </div>
