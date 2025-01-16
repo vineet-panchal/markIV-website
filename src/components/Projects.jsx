@@ -119,7 +119,7 @@ const Projects = () => {
               alt="intelly"
             />
             <div className="projects-card-links">
-              <a href="https://github.com/vineet-panchal/intelly-draft" target="_blank">
+              <a href="https://intelly-ai-flashcards.vercel.app/" target="_blank">
                 <button className="projects-btn" id="projects-github"> 
                   <svg
                     class="projects-links-icon"
