@@ -14,8 +14,8 @@ const Experience = () => {
               Software Engineer Fellow - Headstarter AI
             </h1>
             <h4 className="experience-card-text" id="headstarter-text">
-              Spearheaded the development of 3 innovative AI-powered projects (Rate My Professor, Intelly, Fashion Disaster
-              Avoider) and collaborated in a cross-functional team to present a final project to a startup (Teach For Cambodia).
+              Developed AI-powered web applications using Next, React, and OpenAI, improving user engagement by leveraging
+              dynamic UI components and intelligent state management, resulting in a more interactive user experience.
             </h4>
             <div className="experience-tech" id="headstarter-tech">
               <button className="experience-tech-btn">Next JS</button>

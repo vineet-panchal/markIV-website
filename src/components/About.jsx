@@ -7,7 +7,7 @@ const About = () => {
       <div className="about-ctr" id="about">
         
         <h4 className="about-paragraph" id="paragraph-1">
-          My name is Vineet Panchal. I am a second-year computer science student at
+          My name is Vineet Panchal. I am a third-year computer science student at
           Toronto Metropolitan University. I am passionate about building innovative
           solutions. I'm a lifelong learner, always seeking opportunities to improve
           my skills and knowledge in software development.
@@ -20,7 +20,7 @@ const About = () => {
           contribute to accessible applications that positively impact society.
         </h4>
         <h4 className="about-paragraph" id="paragraph-3">
-          I'm seeking Summer 2025 Software Developer/Engineer & Frontend Developer
+          I'm seeking Summer 2026 Software Developer/Engineer & Frontend Developer
           Internships.
         </h4>
         <h4 className="about-paragraph" id="paragraph-4">

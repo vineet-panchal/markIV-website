@@ -1,7 +1,7 @@
 import React from 'react';
 import "../css/Sidebar.css";
 import { Link as LinkScroll } from "react-scroll";
-import resume from "../assets/RESUME_VINEETP.pdf"
+import resume from "../assets/Vineet_Panchal_Resume.pdf";
 
 const Sidebar = () => {
   return (

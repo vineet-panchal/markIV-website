@@ -115,8 +115,8 @@ const Projects = () => {
             <img
               className="projects-card-img"
               id="intelly-img"
-              src={img3}
-              alt="intelly"
+              // src={img3}
+              alt="smartdeck"
             />
             <div className="projects-card-links">
               <a href="https://intelly-ai-flashcards.vercel.app/" target="_blank">
@@ -136,7 +136,7 @@ const Projects = () => {
             </div>
           </div>
           <div className="projects-card-right" id="intelly-right">
-            <h1 className="projects-card-title" id="intelly-title">Intelly AI Flashcards</h1>
+            <h1 className="projects-card-title" id="intelly-title">SmartDeck</h1>
             <p className="projects-card-text" id="intelly-text">
               Created a web app that generates intelligent flashcards for educational use, enhancing learning experiences through
               personalized AI-driven content, using OpenAI’s API.
@@ -146,7 +146,7 @@ const Projects = () => {
               <button className="projects-tech-btn">Firebase</button>
               <button className="projects-tech-btn">TypeScript</button>
               <button className="projects-tech-btn">Clerk</button>
-              <button className="projects-tech-btn">Stripe</button>
+              <button className="projects-tech-btn">OpenAI</button>
             </div>
           </div>
         </div>
